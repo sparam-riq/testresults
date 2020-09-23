@@ -1,19 +1,7 @@
 
   <?xml version="1.0" encoding="UTF-8" ?>
     <testsuites>
-        <testsuite name="SUITE ONE" errors="7" tests="10" failures="2" time="0.021">
-            <properties>
-                <property name="flag-type" value="bug" />
-                <property name="flag-content" value="APPLICATION DEFECT" />
-                <property name="Has a name" value="true" />
-                <property name="URL" value="/test/data.com" />
-            </properties>
-            <properties>
-                <property name="flag-type" value="bug" />
-                <property name="flag-content" value="APPLICATION DEFECT" />
-                <property name="Has a name" value="true" />
-                <property name="URL" value="/test/data.com" />
-            </properties>
+        <testsuite name="SUITE ONE" errors="5" tests="6" failures="5" time="0.021">
             <testcase assertions="0" classname="SUITE ONE" name="the first test" time="0.001">
                 <error message="There was a error" type="java.lang.RuntimeException">java.lang.RuntimeException: There was an error</error>
             </testcase>
