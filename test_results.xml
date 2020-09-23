@@ -1,5 +1,4 @@
-
-  <?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
     <testsuites>
         <testsuite name="SUITE ONE" errors="5" tests="6" failures="5" time="0.021">
             <testcase assertions="0" classname="SUITE ONE" name="the first test" time="0.001">
