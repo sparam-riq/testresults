@@ -5,20 +5,19 @@
                 <error message="There was a error" type="java.lang.RuntimeException">java.lang.RuntimeException: There was an error</error>
             </testcase>
             <testcase assertions="0" classname="SUITE ONE" name="the second test" time="0.001">
-                <error message="I ignore this" type="when inner message">&lt;i&gt;WITH&lt;/i&gt;&lt;b&gt;HTML&lt;/b&gt;</error>
+                <passed message="I ignore" type="this anyway">For some reason a passing message</passed>
             </testcase>
             <testcase assertions="0" classname="SUITE ONE" name="the third test" time="0.012">
                 <passed message="I ignore" type="this anyway">For some reason a passing message</passed>
             </testcase>
             <testcase assertions="0" classname="SUITE ONE" name="the fouth test" time="0.001">
-                <error message="There was a error 1" type="java.lang.RuntimeException">java.lang.RuntimeException: There was an error 1</error>
-                <error message="There was a error 2" type="java.lang.RuntimeException">java.lang.RuntimeException: There was an error 2</error>
+                <passed message="I ignore" type="this anyway">For some reason a passing message</passed>
             </testcase>
             <testcase assertions="0" classname="SUITE ONE" name="the fifth test" time="0.002">
-                <error message="This one has no inner message" type="java.lang.RuntimeException"></error>
+                <passed message="I ignore" type="this anyway">For some reason a passing message</passed>
             </testcase>
             <testcase assertions="0" classname="SUITE ONE" name="the sixt test" time="0.001">
-                <error message="This one has no inner message or type"></error>
+                <passed message="I ignore" type="this anyway">For some reason a passing message</passed>
             </testcase>
         </testsuite>
     </testsuites>
